@@ -1,0 +1,76 @@
+body {
+    background-image: url("/texto/images/back0.jpeg");
+    background-size: cover;
+}
+
+input[type=text],
+select {
+    width: 132%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+input[type=password],
+select {
+    width: 132%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+input[type=date],
+select {
+    width: 132%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    -webkit-text-fill-color: gray;
+}
+
+input[type=submit] {
+    width: 94%;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.l {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#frm {
+    border: 0px;
+    width: 330px;
+    margin: 70px auto;
+    background-color: #ffe7b3;
+    padding: 14px 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url("/texto/images/blur.jpg");
+    background-attachment: fixed;
+}
+
+a:visited {
+    color: white;
+}
